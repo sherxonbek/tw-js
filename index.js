@@ -55,7 +55,7 @@ let kun3 = 5;
 
 switch (true) {
     case kun3 == 1:
-    case kun3 ==3:
+    case kun3 == 3:
     case kun3 == 5:
     case kun3 == 7:
     case kun3 == 8:
@@ -132,9 +132,240 @@ switch (true) {
     case yil % 100 == 0:
         console.log("kabisa yil emas");
         break;
-    case yil %   400 == 0:
+    case yil % 400 == 0:
         console.log("kabisa yil");
         break;
     default:
         console.log("kabisa yil emas");
 }
+
+/////7-misol/////
+let oy = 4; 
+
+switch (true) {
+    case oy == 1:
+        var kun = 31;
+        console.log(kun);
+        break;
+    case oy == 2:
+        var kun = 31 + 28;
+        console.log(kun);
+        break;
+    case oy == 3:
+        var kun = 31 + 28 + 31;
+        console.log(kun);
+        break;
+    case oy == 4:
+        var kun = 31 + 28 + 31 + 30;
+        console.log(kun);
+        break;
+    case oy == 5:
+        var kun = 31 + 28 + 31 + 30 + 31;
+        console.log(kun);
+        break;
+    case oy == 6:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30;
+        console.log(kun);
+        break;
+    case oy == 7:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31;
+        console.log(kun);
+        break;
+    case oy == 8:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31;
+        console.log(kun);
+        break;
+    case oy == 9:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30;
+        console.log(kun);
+        break;
+    case oy == 10:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31;
+        console.log(kun);
+        break;
+    case oy == 11:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30;
+        console.log(kun);
+        break;
+    case oy == 12:
+        var kun = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 31 + 30 + 31 + 30 + 31;
+        console.log(kun);
+        break;
+    default:
+        console.log("bunday oy mavjud emas");
+}
+
+/////8-misol/////
+
+let son = 456;
+
+let natija = "";
+
+let yuz = Math.floor(son / 100);
+let on = Math.floor((son % 100) / 10);
+let birlik = son % 10;
+
+switch (yuz) {
+    case 1:
+        natija += "yuz ";
+        break;
+    case 2:
+        natija += "ikki yuz ";
+        break;
+    case 3:
+        natija += "uch yuz ";
+        break;
+    case 4:
+        natija += "to'rt yuz ";
+        break;
+    case 5:
+        natija += "besh yuz ";
+        break;
+    case 6:
+        natija += "olti yuz ";
+        break;
+    case 7:
+        natija += "yetti yuz ";
+        break;
+    case 8:
+        natija += "sakkiz yuz ";
+        break;
+    case 9:
+        natija += "to'qqiz yuz ";
+        break;
+    default:
+        break;
+}
+
+switch (on) {
+    case 1:
+        natija += "o'n ";
+        break;
+    case 2:
+        natija += "yigirma ";
+        break;
+    case 3:
+        natija += "o'ttiz ";
+        break;
+    case 4:
+        natija += "qirq ";
+        break;
+    case 5:
+        natija += "ellik ";
+        break;
+    case 6:
+        natija += "oltmish ";
+        break;
+    case 7:
+        natija += "yetmish ";
+        break;
+    case 8:
+        natija += "sakson ";
+        break;
+    case 9:
+        natija += "to'qson ";
+        break;
+    default:
+        break;
+}
+switch (birlik) {
+    case 1:
+        natija += "bir";
+        break;
+    case 2:
+        natija += "ikki";
+        break;
+    case 3:
+        natija += "uch";
+        break;
+    case 4:
+        natija += "to'rt";
+        break;
+    case 5:
+        natija += "besh";
+        break;
+    case 6:
+        natija += "olti";
+        break;
+    case 7:
+        natija += "yetti";
+        break;
+    case 8:
+        natija += "sakkiz";
+        break;
+    case 9:
+        natija += "to'qqiz";
+        break;
+    default:
+        break;
+}
+console.log(natija);
+
+/////9-misol/////
+let son1 = 12; 
+
+let natija1 = "";
+let on1 = Math.floor((son1 % 100) / 10);
+let birlik1 = son1 % 10;   switch (on1) {
+    case 1:
+        natija1 += "o'n ";
+        break;
+    case 2:
+        natija1 += "yigirma ";
+        break;
+    case 3:
+        natija1 += "o'ttiz ";
+        break;
+    case 4:
+        natija1 += "qirq ";
+        break;
+    case 5:
+        natija1 += "ellik ";
+        break;
+    case 6:
+        natija1 += "oltmish ";
+        break;
+    case 7:
+        natija1 += "yetmish ";
+        break;
+    case 8:
+        natija1 += "sakson ";
+        break;
+    case 9:
+        natija1 += "to'qson ";
+        break;
+    default:
+        break;
+}
+switch (birlik1) {
+    case 1:
+        natija1 += "bir";
+        break;
+    case 2:
+        natija1 += "ikki";
+        break;
+    case 3:
+        natija1 += "uch";
+        break;
+    case 4:
+        natija1 += "to'rt";
+        break;
+    case 5:
+        natija1 += "besh";
+        break;
+    case 6:
+        natija1 += "olti";
+        break;
+    case 7:
+        natija1 += "yetti";
+        break;
+    case 8:
+        natija1 += "sakkiz";
+        break;
+    case 9:
+        natija1 += "to'qqiz";
+        break;
+    default:
+        break;
+}
+console.log(natija1 + " ta masala");
